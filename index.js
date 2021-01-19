@@ -16,7 +16,7 @@ let API = false;
 let pages = {}
 let apilist = []
 
-const items = ["Insert splash text here", "HTML is a programming language", "C++ > Rust", "Oh hey there", "Hyperdash will come before 2.2", "2.2 when?", "Now with pointercrate!", "Now with Challenges!", "Automatically copying IDs since 2020", "Also try Geometry Dash", "Hi Matcool", "F in chat", "Hi YT", "🅱️", "This text is random", "GG EZ"]
+const items = ["Insert splash text here", "HTML is a programming language", "C++ > Rust", "Oh hey there", "Hyperdash will come before 2.2", "2.2 when?", "Now with Invis List!", "Now with Challenges!", "Automatically copying IDs since 2020", "Also try Geometry Dash", "Hi Matcool", "F in chat", "Hi YT", "🅱️", "This text is random", "GG EZ"]
 document.getElementById('splash').innerText = items[Math.floor(Math.random() * items.length)];
 
 let urlQuery = ''
